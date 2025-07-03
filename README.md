@@ -1,0 +1,2 @@
+# blog
+Automation Blog
