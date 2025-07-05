@@ -1,5 +1,3 @@
-
-
 # What is SOAR?
 
 ![Confused Programmer](../images/what-is-soar-header.png)
@@ -50,12 +48,14 @@ There are also some new kids on the block, with promising SOAR tools:
 - Tracecat (Open-Source)
 - Tines
 
+![Newcomer SOAR Tools](../images/soar_02.png)
+
 There are also some SIEM tools that have some automation capabilities built in, which I have not listed here.
 
 ## Should you use SOAR?
 
-As mentioned most SOAR tools, especially the ones created by big companies are not cheap (I mean what cyber security tools really are?), so especially for smaller teams getting a SOAR tools might quickly exceed the buged limit. However, with open-source options like Tracecat this may not be an issue anymore. 
+As mentioned, most SOAR tools, especially the ones created by big companies are not cheap (I mean what cyber security tools really are?), so especially for smaller teams getting a SOAR tools might quickly exceed the buged limit. However, with open-source options like Tracecat this may not be an issue anymore. 
 
-Budget aside, SOAR tools are fantastic for teams that are not too much into coding as most of them come with pre-build building blocks that allow you to quickly assemble a playbook. Those inbuild blocks can reach their limit though sometimes quickly, then it can be very useful having someone with development experience on the team who can create custom ones.
+Budget aside, SOAR tools are fantastic for teams that are not too much into coding as most of them come with pre-build building blocks that allow you to quickly assemble a playbook. Those inbuild blocks can reach their limit sometimes very quickly, then it can be useful having someone with development experience on the team who can create custom ones.
 
-In the end (as always) it comes down to your own requirements, your budget, and what exactly you are trying to automate. For example, if you just want to have a more reliable cron job, then Apache Workflow or something similar is probably a better choice simply from a money perspective. If you one the other hand want to decrease the time analysts spend on cases, SOAR may be just the right thing for you.
+In the end (as always) it comes down to your own requirements, your budget, and what exactly you are trying to automate. For example, if you just want to have a more reliable cron job, then Apache Workflow or something similar is probably a better choice simply from a money perspective. If you on the other hand want to decrease the time analysts spend on cases, SOAR may be just the right thing for you.
