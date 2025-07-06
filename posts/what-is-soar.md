@@ -1,12 +1,12 @@
 # What is SOAR?
 
-![Confused Programmer](https://github.com/BarracudaByte/blog/blob/main/images/what-is-soar-header.png?raw=true)
+![Confused Programmer](https://github.com/BarracudaByte/blog/blob/main/images/what-is-soar-header.webp?raw=true)
 
 Anyone working in Cyber Security has probably encountered at least once in their day to day an absolutely boring and repetitive task that could be better automated. For a lot of these tasks simple python or powershell scripts are enough, but sometimes you need some more funcionality, this is where **SOAR** comes into play. 
 
 ## What SOAR is and isn't
 
-![Security Orechestration Automationa and Response](https://github.com/BarracudaByte/blog/blob/main/images/soar_00.png?raw=true)
+![Security Orechestration Automationa and Response](https://github.com/BarracudaByte/blog/blob/main/images/soar_00.webp?raw=true)
 
 As its name suggests (SOAR stands for **Security Orechestration, Automation, and Response**), SOAR is not only an automation tool but combines data of different tools and allows to create workflows to quicker to respond to incidents:
 
@@ -16,7 +16,7 @@ As its name suggests (SOAR stands for **Security Orechestration, Automation, and
 
 While SOAR tools have case management abilities, they do not do any sort of log management, event correlation, and real-time monitoring, which are usually all parts of a SIEM tool. 
 
-![SIEM and SOAR](https://github.com/BarracudaByte/blog/blob/main/images/soar_01.png?raw=true)
+![SIEM and SOAR](https://github.com/BarracudaByte/blog/blob/main/images/soar_01.webp?raw=true)
 
 ## When to consider using a SOAR tool?
 
@@ -48,7 +48,7 @@ There are also some new kids on the block, with promising SOAR tools:
 - Tracecat (Open-Source)
 - Tines
 
-![Newcomer SOAR Tools](https://github.com/BarracudaByte/blog/blob/main/images/soar_02.png?raw=true)
+![Newcomer SOAR Tools](https://github.com/BarracudaByte/blog/blob/main/images/soar_02.webp?raw=true)
 
 There are also some SIEM tools that have some automation capabilities built in, which I have not listed here.
 
