@@ -126,3 +126,5 @@ pe.write('new_file_with_ASLR_disabled.exe')
 As we have seen, with Python it is easy and fast to quickly parse a PE file and get some general information out of it. We even were able to disable ASLR making further reversing of the file a lot easier.  
 
 You can easily extend this script and add further functionality like using command-line arguments to pass the filename, so you can quickly run it before analysing files.
+
+> Note: If you have used the executable from HackTheBox you will be able to answer some of the challenge questions with the output of your script!
