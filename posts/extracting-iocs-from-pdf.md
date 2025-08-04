@@ -52,7 +52,7 @@ In an analysis maybe not always necessary but **PDFium2** can give us some gener
 
 First open the PDF file and pass it to `pdfium` to create a new document.
 
-```python 
+```python
 import pypdfium2 as pdfium
 
 with open(filepath, "rb") as fh:
@@ -60,6 +60,7 @@ with open(filepath, "rb") as fh:
     version = pdf.get_version()
     num_pages = len(pdf)
     print(f'Version: {version}\nPages: {num_Pages}')
+
 ```
 
 Now we can also extract the text of the PDF, as **PDFium2** tries to hide the underlying strcuture, this mostly only extracts the visible text. Simply iterate over each page in the PDF document and get the text. 
