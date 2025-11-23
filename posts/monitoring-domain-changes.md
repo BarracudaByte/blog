@@ -49,28 +49,6 @@ We will need in total three functions: one to **add**, to **update** and one to 
 Adding an entry to the database is probably the most complex one, but overall we only want to check if the entry already exist in the database and only add it if not. To check we can use a prepared statement, where we check for the domain name. If it already exist we don't need to add it to our watchlist again and we can simply return. Otherwise we can use the `INSERT INTO` query to add it to our watchlist.
 
 
-```python
-
-import sqlite3
-
-def add_to_watchlist(connection, domain, dom):
-    now = datetime.now()
-    deep_hash = ppdeep.hash(dom)
-    cursor = connection.cursor()
-    # check if the domain is already in the db
-    cursor.execute("SELECT * FROM domain_watchlist WHERE name = ?;", (domain, ))
-    if cursor.fetchone():
-        print(f"[!] The domain '{domain}' is already on the watchlist")
-        return
-    
-    # insert the domain
-    insert_query = 'INSERT INTO domain_watchlist VALUES (?, ?, ?, ?);'
-    cursor.execute(insert_query, (domain, deep_hash, now, now))
-    #cursor.execute("INSERT INTO domain_watchlist VALUES (:domain, :hash, :now, :now)", data)
-    connection.commit()
-    cursor.close()
-    print(f"[+] Successfully added domain '{domain}' to watchlist")
-```
 
 ### Updating & Deleting Entry in Watchlist
 
