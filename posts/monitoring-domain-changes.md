@@ -26,6 +26,7 @@ For storing the domains we will be using a SQLite database, as we won't need to 
 
 Python makes working with SQLite database easy and straight-forward and the only thing we need to deal with, is if the DB already exist, if not we create it. There are multiple ways to do this, the easiest is using a simple SQL `CREATE TABLE IF NOT EXIST` syntax. Alternatives would be wrapping everything in some nice `try-except`. 
 
+
 ```python
 def setup_db():
     connection = sqlite3.connect("watchlist.db", detect_types = sqlite3.PARSE_DECLTYPES | sqlite3.PARSE_COLNAMES)
@@ -47,7 +48,9 @@ We will need in total three functions: one to **add**, to **update** and one to 
 
 Adding an entry to the database is probably the most complex one, but overall we only want to check if the entry already exist in the database and only add it if not. To check we can use a prepared statement, where we check for the domain name. If it already exist we don't need to add it to our watchlist again and we can simply return. Otherwise we can use the `INSERT INTO` query to add it to our watchlist.
 
-```python 
+
+```python
+
 import sqlite3
 
 def add_to_watchlist(connection, domain, dom):
