@@ -1,6 +1,6 @@
 # Continious Domain Monitoring - Fighting Domain Squatting
 
-![Programmer](https://raw.githubusercontent.com/BarracudaByte/blog/refs/heads/main/images/extracting-pe-info.webp?raw=true)
+![Programmer](https://raw.githubusercontent.com/BarracudaByte/blog/refs/heads/main/images/domain-monitoring.webp?raw=true)
 
 As cyber security analyst it is not uncommon to triage newly registered domains that potentially impersonate your company. There are multiple vendors out there, that are more than happy to notify you for a small amount of money, of a newly registered domain that is potentially domain squatting yours. 
 
